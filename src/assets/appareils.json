@@ -1,0 +1,32 @@
+[
+  {
+    "type": "CapteurTemperature",
+    "nom": "TempSalon",
+    "actif": true
+  },
+  {
+    "type": "CapteurTemperature",
+    "nom": "TempChambre",
+    "actif": true
+  },
+  {
+    "type": "CapteurHumidite",
+    "nom": "HumCuisine",
+    "actif": true
+  },
+  {
+    "type": "ActionneurLumiere",
+    "nom": "LumiereSalon",
+    "actif": false
+  },
+  {
+    "type": "ActionneurVolet",
+    "nom": "VoletCuisine",
+    "actif": true
+  },
+  {
+    "type": "ActionneurVentilation",
+    "nom": "VentilSalleBain",
+    "actif": true
+  }
+]

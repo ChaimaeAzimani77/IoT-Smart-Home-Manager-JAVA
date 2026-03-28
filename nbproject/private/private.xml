@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/CapteurQualiteAir.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/CapteurDebitEau.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/ActionneurVolet.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/ActionneurVentilation.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/controller/IoTController.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/view/DashboardIoT.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/AppareilConnecte.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/controller/GestionPersistance.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/GestionIoT.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/ActionneurLumiere.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/AppareilDejaConnecteException.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/AppareilDejaExistantException.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/AppareilException.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/AppareilIntrouvableException.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/AppareilNonConnecteException.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/CameraIP.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/CapteurHumidite.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/model/CapteurTemperature.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/controller/ConfigLoader.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/controller/ExcelExporter.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/controller/LectureJSON.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/controller/TextExporter.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/view/InterfaceAppareils.java</file>
+            <file>file:/C:/Users/Chaya/OneDrive/Documents/NetBeansProjects/TP5_MVC/TPP5/src/tp5/Main.java</file>
+        </group>
+    </open-files>
+</project-private>
