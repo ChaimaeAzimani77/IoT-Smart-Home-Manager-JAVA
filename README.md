@@ -1,29 +1,21 @@
 # 🏠 IoT Smart Home Manager — DashboardIoT
 
-> **Mini-Projet Java** — ENSA d'Oujda | Filière GSEIR-3 | 2025/2026
+> **Mini-Projet Java** — ENSA d'Oujda | Filière GSEIR-4 | 2025/2026
 
----
-
-## 📝 Description
+## 📝 Description :
 
 Application Java de gestion d'un réseau d'objets connectés (IoT) dans une maison intelligente.  
 Elle permet de **centraliser le contrôle, le suivi et l'export** des données de capteurs et d'actionneurs via une interface graphique **Java Swing**, en appliquant les principes fondamentaux de la **Programmation Orientée Objet (POO)**.
 
----
-
-## 👩‍💻 Réalisée par
+## 👩‍💻 Réalisée par :
 
 - **El Azimani Chaimae**
 
----
-
-## 📌 Problématique
+## 📌 Problématique :
 
 Comment gérer de façon **uniforme** des appareils IoT très différents (capteurs, actionneurs) et assurer la **persistance et l'export** des données pour conserver l'historique et faciliter l'analyse ?
 
----
-
-## 🎯 Objectifs Fonctionnels
+## 🎯 Objectifs Fonctionnels :
 
 - ✅ Gérer un parc d'appareils IoT (Ajout / Suppression)
 - ✅ Monitorer l'état des connexions en temps réel
@@ -31,9 +23,7 @@ Comment gérer de façon **uniforme** des appareils IoT très différents (capte
 - ✅ Archiver les relevés de mesures (Température, Humidité, Qualité de l'air...)
 - ✅ Exporter les données en format **TXT** et **Excel**
 
----
-
-## 🏗️ Architecture Logicielle (MVC)
+## 🏗️ Architecture Logicielle (MVC) :
 
 Le projet suit le **pattern MVC (Model – View – Controller)** pour une séparation claire des responsabilités :
 
@@ -52,11 +42,9 @@ Le projet suit le **pattern MVC (Model – View – Controller)** pour une sépa
 └──────────────┴──────────────────┴───────────────────┘
 ```
 
----
+## 🛠️ Partie Matérielle — Appareils Simulés :
 
-## 🛠️ Partie Matérielle — Appareils Simulés
-
-### 📡 Capteurs
+### 📡 Capteurs :
 
 | Classe | Mesure | Unité |
 |---|---|---|
@@ -65,7 +53,7 @@ Le projet suit le **pattern MVC (Model – View – Controller)** pour une sépa
 | `CapteurQualiteAir` | Indice qualité de l'air | AQI |
 | `CapteurDebitEau` | Débit d'eau | L/min |
 
-### ⚡ Actionneurs
+### ⚡ Actionneurs :
 
 | Classe | Action | États |
 |---|---|---|
@@ -74,11 +62,9 @@ Le projet suit le **pattern MVC (Model – View – Controller)** pour une sépa
 | `ActionneurVolet` | Contrôle volets | OUVERT / FERMÉ |
 | `CameraIP` | Surveillance caméra | ACTIF / INACTIF |
 
----
+## 💻 Partie Logicielle (Software) :
 
-## 💻 Partie Logicielle (Software)
-
-### 🧾 Technologies utilisées
+### 🧾 Technologies utilisées :
 
 | Technologie | Rôle |
 |---|---|
@@ -89,7 +75,7 @@ Le projet suit le **pattern MVC (Model – View – Controller)** pour une sépa
 | **Apache POI / Excel** | Export des données en format Excel |
 | **Java Properties** | Fichier de configuration `config.properties` |
 
-### 📦 Structure des Packages
+### 📦 Structure des Packages :
 
 ```
 src/
@@ -116,11 +102,9 @@ src/
     └── DashboardView.java        ← Interface Swing
 ```
 
----
+## ⚙️ Logique de l'Application :
 
-## ⚙️ Logique de l'Application
-
-### 🔄 Démarrage
+### 🔄 Démarrage :
 
 ```
 [Lancement] → [Sauvegarde existante ?]
@@ -129,7 +113,7 @@ src/
                     └──→ [Afficher interface Swing]
 ```
 
-### 📊 Gestion des Appareils
+### 📊 Gestion des Appareils :
 
 ```
 [Utilisateur] → [Connecter appareil]
@@ -139,7 +123,7 @@ src/
              → [Exporter → TXT ou Excel]
 ```
 
-### 🔒 Gestion des Exceptions
+### 🔒 Gestion des Exceptions :
 
 | Exception | Déclencheur |
 |---|---|
@@ -148,55 +132,51 @@ src/
 | `DoublonAppareil` | Ajout d'un appareil déjà existant |
 | `AppareilIntrouvable` | Référence à un appareil inexistant |
 
----
+## 🔨 Interface Graphique — Démonstration :
 
-## 🔨 Interface Graphique — Démonstration
-
-### Tableau de bord principal
+### Tableau de bord principal :
 
 <p align="center">
   <img src="images/dashboard_demarrage.png" width="700"/>
 </p>
 
-### Gestion des appareils
+### Gestion des appareils :
 
 <p align="center">
   <img src="images/dashboard_appareils.png" width="700"/>
 </p>
 
-### Mesures en temps réel
+### Mesures en temps réel :
 
 <p align="center">
   <img src="images/dashboard_mesures.png" width="700"/>
 </p>
 
-### Contrôle des actionneurs
+### Contrôle des actionneurs :
 
 <p align="center">
   <img src="images/dashboard_actions.png" width="700"/>
 </p>
 
-### Historique des mesures
+### Historique des mesures :
 
 <p align="center">
   <img src="images/dashboard_historique.png" width="700"/>
 </p>
 
-### Export des données
+### Export des données :
 
 <p align="center">
   <img src="images/export_donnees.png" width="700"/>
 </p>
 
-### Logs système
+### Logs système :
 
 <p align="center">
   <img src="images/logs_systeme.png" width="700"/>
 </p>
 
----
-
-## 📊 Résultats
+## 📊 Résultats :
 
 - ✅ Architecture MVC propre et modulaire
 - ✅ Gestion uniforme de tous types d'appareils via polymorphisme
@@ -205,9 +185,7 @@ src/
 - ✅ Interface Swing intuitive et complète
 - ✅ Gestion robuste des erreurs via exceptions personnalisées
 
----
-
-## 🚀 Améliorations Possibles
+## 🚀 Améliorations Possibles :
 
 | Amélioration | Description |
 |---|---|
@@ -219,9 +197,7 @@ src/
 | 🔐 **Authentification** | Système de login multi-utilisateurs avec rôles |
 | 🤖 **Alertes intelligentes** | Notifications automatiques si valeur hors seuil |
 
----
-
-## 📁 Structure du Dépôt
+## 📁 Structure du Dépôt :
 
 ```
 iot-smart-home-java/
@@ -245,9 +221,7 @@ iot-smart-home-java/
     └── rapport_java.pdf
 ```
 
----
-
-## 🔑 Concepts POO Appliqués
+## 🔑 Concepts POO Appliqués :
 
 | Concept | Application dans le projet |
 |---|---|
