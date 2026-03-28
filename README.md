@@ -28,9 +28,9 @@ Comment gérer de façon **uniforme** des appareils IoT très différents (capte
 Le projet suit le **pattern MVC (Model – View – Controller)** pour une séparation claire des responsabilités :
 
 ```
-┌─────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────┐
 │                   APPLICATION IoT                    │
-├──────────────┬──────────────────┬───────────────────┤
+├──────────────┬──────────────────┬────────────────────┤
 │    MODEL     │   CONTROLLER     │       VIEW         │
 │              │                  │                    │
 │ • Appareils  │ • IoTController  │ • Interface Swing  │
@@ -39,7 +39,7 @@ Le projet suit le **pattern MVC (Model – View – Controller)** pour une sépa
 │ • GestionIoT │ • TextExporter   │ • Historique       │
 │ • Exceptions │ • LectureJSON    │                    │
 │              │ • GestionPers.   │                    │
-└──────────────┴──────────────────┴───────────────────┘
+└──────────────┴──────────────────┴────────────────────┘
 ```
 
 ## 🛠️ Partie Matérielle — Appareils Simulés :
@@ -146,12 +146,6 @@ src/
   <img src="Images/Image2.jpg" width="700"/>
 </p>
 
-### Mesures en temps réel :
-
-<p align="center">
-  <img src="images/dashboard_mesures.png" width="700"/>
-</p>
-
 ### Contrôle des actionneurs :
 
 <p align="center">
@@ -179,24 +173,24 @@ src/
 
 ## 📊 Résultats :
 
-- ✅ Architecture MVC propre et modulaire
-- ✅ Gestion uniforme de tous types d'appareils via polymorphisme
-- ✅ Persistance des données entre sessions (sérialisation Java)
-- ✅ Export fonctionnel en TXT et Excel
-- ✅ Interface Swing intuitive et complète
-- ✅ Gestion robuste des erreurs via exceptions personnalisées
+-  Architecture MVC propre et modulaire
+-  Gestion uniforme de tous types d'appareils via polymorphisme
+-  Persistance des données entre sessions (sérialisation Java)
+-  Export fonctionnel en TXT et Excel
+-  Interface Swing intuitive et complète
+-  Gestion robuste des erreurs via exceptions personnalisées
 
 ## 🚀 Améliorations Possibles :
 
 | Amélioration | Description |
 |---|---|
-| 🌐 **Interface Web** | Remplacer Swing par une interface web (Spring Boot + React) |
-| 📱 **Application mobile** | App Android/iOS pour contrôler les appareils à distance |
-| 📡 **Connexion réelle** | Intégrer de vrais capteurs IoT (ESP32, Raspberry Pi) |
-| 🗄️ **Base de données** | Remplacer la sérialisation par MySQL / PostgreSQL |
-| 📈 **Dashboard graphique** | Ajouter des graphiques de visualisation des données |
-| 🔐 **Authentification** | Système de login multi-utilisateurs avec rôles |
-| 🤖 **Alertes intelligentes** | Notifications automatiques si valeur hors seuil |
+|  **Interface Web** | Remplacer Swing par une interface web (Spring Boot + React) |
+|  **Application mobile** | App Android/iOS pour contrôler les appareils à distance |
+|  **Connexion réelle** | Intégrer de vrais capteurs IoT (ESP32, Raspberry Pi) |
+|  **Base de données** | Remplacer la sérialisation par MySQL / PostgreSQL |
+|  **Dashboard graphique** | Ajouter des graphiques de visualisation des données |
+|  **Authentification** | Système de login multi-utilisateurs avec rôles |
+|  **Alertes intelligentes** | Notifications automatiques si valeur hors seuil |
 
 ## 📁 Structure du Dépôt :
 
