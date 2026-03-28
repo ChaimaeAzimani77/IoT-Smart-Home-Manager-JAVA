@@ -137,13 +137,13 @@ src/
 ### Tableau de bord principal :
 
 <p align="center">
-  <img src="images/dashboard_demarrage.png" width="700"/>
+  <img src="Images/Image1.png" width="700"/>
 </p>
 
 ### Gestion des appareils :
 
 <p align="center">
-  <img src="images/dashboard_appareils.png" width="700"/>
+  <img src="Images/Image2.jpg" width="700"/>
 </p>
 
 ### Mesures en temps réel :
@@ -155,25 +155,26 @@ src/
 ### Contrôle des actionneurs :
 
 <p align="center">
-  <img src="images/dashboard_actions.png" width="700"/>
+  <img src="Images/Image3.jpg" width="700"/>
 </p>
 
 ### Historique des mesures :
 
 <p align="center">
-  <img src="images/dashboard_historique.png" width="700"/>
+  <img src="Images/Image4.jpg" width="700"/>
 </p>
 
 ### Export des données :
 
 <p align="center">
-  <img src="images/export_donnees.png" width="700"/>
+  <img src="Images/Image6.jpg" width="700"/>
+  <img src="Images/Image7.jpg" width="700"/>
 </p>
 
 ### Logs système :
 
 <p align="center">
-  <img src="images/logs_systeme.png" width="700"/>
+  <img src="Images/Image5.jpg" width="700"/>
 </p>
 
 ## 📊 Résultats :
